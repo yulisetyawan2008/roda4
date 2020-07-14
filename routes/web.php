@@ -15,6 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/mobil', function () {
-    return view('mobil');
+Route::get('/home', function () {
+    return view('home');
 });
